@@ -188,7 +188,7 @@ def load_data(df: pd.DataFrame):
 
 
 # ----------------------
-# 通知（選填）
+# 通知（選擇性執行）
 # ----------------------
 def _send_slack(msg: str):
     if not SLACK_WEBHOOK_URL:
