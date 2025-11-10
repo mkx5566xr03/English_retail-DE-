@@ -31,7 +31,7 @@ if not DB_URL:
 
 EXCEL_PATH = os.getenv(
     "EXCEL_PATH",
-    "C:/Users/admin/Desktop/English_retail/data/online_retail_II.xlsx",
+    "C:/Users/admin/Desktop/info/side project/English_retail/data/online_retail_II.xlsx",
 ).strip()
 SHEETS_ENV = os.getenv("SHEETS", "Year 2009-2010,Year 2010-2011").strip()
 
